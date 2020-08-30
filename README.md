@@ -15,7 +15,11 @@ End license.
 This is a terminal based app I built to track my hours while working as an English teacher. I used it on my Ubuntu Touch. It uses Python and sqlite3 for the database.
 
 current_db.py shows the state of the current database
+
 delete_last_entry.py deletes the last entry into the database
+
 hours.py enters hours
+
 pay.py shows the total pay and gives the option to end the current pay period
+
 total_hours.py shows the total pay
