@@ -39,11 +39,11 @@ def wipe_db():
 def end_pay_period_confirm(answer):
 	print("Are you sure? (Y/N)")
 	answer = input()
-	if answer is "Y":	
+	if answer == "Y":	
 		write_csv()
 		wipe_db()
 		quit()
-	elif answer is "N":
+	elif answer == "N":
 		quit()
 	else:
 		end_pay_period_confirm(answer)
@@ -51,9 +51,9 @@ def end_pay_period_confirm(answer):
 def end_pay_period():
 	print("End pay period? (Y/N)")
 	answer = input()
-	if answer is "Y":
+	if answer == "Y":
 		end_pay_period_confirm(answer)
-	elif answer is "N":
+	elif answer == "N":
 		quit()
 	else:
 		end_pay_period()
